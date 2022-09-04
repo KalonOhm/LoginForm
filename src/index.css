@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#loginArea {
+  /* add in the border instead of in-line styling */
+  border: solid 3px orange;
+  background-color: whitesmoke;
+  /* Center vertically & horizontaly*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: max-content;
+}
+
+#navBar {
+  position: fixed;
+  top: 0;
 }
