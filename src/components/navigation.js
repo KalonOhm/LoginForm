@@ -2,23 +2,19 @@ import React, { Component } from "react";
 
 export default class Navigation extends Component {
     render() {
-        return React.createElement('button', {class: 'btn btn-primary'}, 'Like');
+        return (
+            <div className="container">
+            {/* a bunch of links that go nowhere */}
+                <nav className="navbar">
+                    <a className="navbar-brand" href="#">Navbar</a>
+                    
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-        
+                </nav>
+            </div>
+        )
     }
 }

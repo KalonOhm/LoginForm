@@ -20,7 +20,7 @@ export default class LoginForm extends Component {
                         <input type="password" id="password" name="password"></input>
                     </div>
                     {/* needs a submit button */}
-                    <button type="submit" name="sumbit">Submit</button>
+                    <button type="submit" className="btn btn-primary" name="sumbit">Submit</button>
                 </form>
         </div>
       );
